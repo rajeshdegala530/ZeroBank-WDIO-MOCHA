@@ -1,0 +1,30 @@
+{
+  "name": "wdio-testing",
+  "version": "1.0.0",
+  "description": "Automated Software Testing with WebDriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "keywords": [
+    "Automation",
+    "WebDriver"
+  ],
+  "author": "Rajesh Degala",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
+    "@wdio/cli": "^6.1.12",
+    "@wdio/local-runner": "^6.1.12",
+    "@wdio/mocha-framework": "^6.1.8",
+    "@wdio/spec-reporter": "^6.1.12",
+    "@wdio/sync": "^6.1.8",
+    "chromedriver": "^83.0.0",
+    "eslint-plugin-mocha": "^7.0.0",
+    "prettier": "^2.0.5",
+    "wdio-chromedriver-service": "^6.0.3"
+  }
+}

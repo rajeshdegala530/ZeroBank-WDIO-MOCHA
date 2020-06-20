@@ -15,6 +15,17 @@ class InsideNavbar extends Base {
 		return $('#tabs > ul > li:nth-child(3) > a')
 	}
 
+	get accountSummaryTab()
+	{
+		return $('li#account_summary_tab > a')
+	}
+
+	clickAccountSummaryTab()
+	{
+		this.accountActivityTab.waitForExist()
+		this.accountSummaryTab.click()
+	}
+
 	clickAccountTab() {
 		this.accountActivityTab.waitForExist()
 		this.accountActivityTab.click()

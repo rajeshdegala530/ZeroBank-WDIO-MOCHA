@@ -58,6 +58,8 @@ return $('.icon-cog')
 		this.searchBox.setValue(text)
 		browser.keys('Enter')
 	}
+
+	
 }
 
 export default new Navbar()

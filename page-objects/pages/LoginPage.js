@@ -46,6 +46,27 @@ class LoginPage extends Base {
 		this.passwordInput.setValue(password)
 		this.submitForm()
 	}
+//--------------------------------------------------------------------------
+	get forgotPasswordinput()
+	{
+		return $('#user_email')
+	}
+
+	 forgotEmailInput(email)
+	{
+		this.forgotPasswordinput.setValue(email)
+	}
+
+	get forgotpasswordpagetext()
+	{
+		return $('h3')
+	}
+
+	get forgotpasswordsubmittext()
+	{
+		return $('.row').getText()
+	}
+
 }
 
 export default new LoginPage()

@@ -23,6 +23,13 @@ class App{
         browser.url('http://zero.webappsecurity.com/feedback.html')
         browser.setWindowSize(1920, 1080)
     }
+
+    forgotPasswordPage()
+    {
+        browser.url('http://zero.webappsecurity.com/forgot-password.html')
+        browser.setWindowSize(1920, 1080)
+
+    }
 }
 
 export default new App()    

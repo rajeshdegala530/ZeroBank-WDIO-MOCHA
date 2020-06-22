@@ -1,0 +1,1 @@
+This folder consists of sample program to learn javascript

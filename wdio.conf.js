@@ -26,6 +26,9 @@ exports.config = {
         ],
         payment: [
             './tests/payment/*.js'
+        ],
+        account: [
+            './tests/accountpage/*.js'
         ]
     },
     // Patterns to exclude.

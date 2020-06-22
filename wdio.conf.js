@@ -17,8 +17,14 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './tests/**.js'
+        './tests/e2e-login.js'
     ],
+
+    suites:{
+        login: [
+            './tests/logintest/*.js'
+        ]
+    },
     // Patterns to exclude.
     exclude: [
         './tests/example.js',
@@ -126,8 +132,17 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec'],
- 
+      //  reporters: ['spec'],
+    //  reporters: ['spec'],
+      reporters: ['spec',['mochawesome',{
+            outputDir: './mochareports',
+            includeScreenshots:true,
+      screenshotUseRelativePath:true,
+      mochawesome_filename: 'myfile.json'
+
+        }]
+      ],
+
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/

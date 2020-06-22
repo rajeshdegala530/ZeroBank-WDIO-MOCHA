@@ -1,6 +1,6 @@
-import LoginPage from '../page-objects/pages/LoginPage'
-import App from '../page-objects/App'
-import Navbar from '../page-objects/components/Navbar'
+import LoginPage from '../../page-objects/pages/LoginPage'
+import App from '../../page-objects/App'
+import Navbar from '../../page-objects/components/Navbar'
 
 describe('E2E Tests - Login - Logout Flow', () => {
 	it('User Should not Login with Invalid Credentials', () => {

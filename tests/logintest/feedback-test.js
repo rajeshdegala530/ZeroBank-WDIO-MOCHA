@@ -1,5 +1,5 @@
-import App from '../page-objects/App'
-import FeedbackPage from '../page-objects/pages/FeedbackPage'
+import App from '../../page-objects/App'
+import FeedbackPage from '../../page-objects/pages/FeedbackPage'
 describe('E2E Tests - FeedBack Form', () => {
 	it('User Should be able to click and load Feedback Form', () => {
 		App.openFeedbackPage()

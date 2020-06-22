@@ -23,6 +23,9 @@ exports.config = {
     suites:{
         login: [
             './tests/logintest/*.js'
+        ],
+        payment: [
+            './tests/payment/*.js'
         ]
     },
     // Patterns to exclude.

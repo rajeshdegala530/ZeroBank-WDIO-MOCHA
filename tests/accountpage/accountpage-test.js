@@ -1,8 +1,8 @@
-import App from '../page-objects/App'
-import LoginPage from '../page-objects/pages/LoginPage'
-import Navbar from '../page-objects/components/Navbar'
-import InsideNavbar from '../page-objects/components/InsideNavbar'
-import AccountSummaryPage from '../page-objects/pages/AccountSummaryPage'
+import App from '../../page-objects/App'
+import LoginPage from '../../page-objects/pages/LoginPage'
+import Navbar from '../../page-objects/components/Navbar'
+import InsideNavbar from '../../page-objects/components/InsideNavbar'
+import AccountSummaryPage from '../../page-objects/pages/AccountSummaryPage'
 
 describe('E2E - CHECK ACCOUNT SUMMARY PAGE SCENARIOS', () => {
 	it('Should display Account Summary Tab', () => {

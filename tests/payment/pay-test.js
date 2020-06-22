@@ -1,8 +1,8 @@
-import LoginPage from '../page-objects/pages/LoginPage'
-import App from '../page-objects/App'
-import Navbar from '../page-objects/components/Navbar'
-import InsideNavbar from '../page-objects/components/InsideNavbar'
-import PayBillsPage from '../page-objects/pages/PayBillsPage'
+import LoginPage from '../../page-objects/pages/LoginPage'
+import App from '../../page-objects/App'
+import Navbar from '../../page-objects/components/Navbar'
+import InsideNavbar from '../../page-objects/components/InsideNavbar'
+import PayBillsPage from '../../page-objects/pages/PayBillsPage'
 
 describe('E2E- Pay', () => {
 	it('Should Login to Application', () => {

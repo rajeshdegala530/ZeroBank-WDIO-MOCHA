@@ -6,7 +6,8 @@
   "scripts": {
     "test": "wdio wdio.conf.js",
     "Login": "wdio wdio.conf.js --suite login",
-    "Payment": "wdio wdio.conf.js --suite payment"
+    "Payment": "wdio wdio.conf.js --suite payment",
+    "AccountTest": "wdio wdio.conf.js --suite account"
 
   },
   "keywords": [

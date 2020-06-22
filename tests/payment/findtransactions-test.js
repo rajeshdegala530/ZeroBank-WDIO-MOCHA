@@ -1,8 +1,8 @@
-import App from '../page-objects/App'
-import LoginPage from '../page-objects/pages/LoginPage'
-import FindTransactionsPage from '../page-objects/pages/FindTransactionsPage'
-import Navbar from '../page-objects/components/Navbar'
-import InsideNavbar from '../page-objects/components/InsideNavbar'
+import App from '../../page-objects/App'
+import LoginPage from '../../page-objects/pages/LoginPage'
+import FindTransactionsPage from '../../page-objects/pages/FindTransactionsPage'
+import Navbar from '../../page-objects/components/Navbar'
+import InsideNavbar from '../../page-objects/components/InsideNavbar'
 
 describe('E2E- FIND TRANSACTIONS', () => {
 	it('Should Login to Application', () => {

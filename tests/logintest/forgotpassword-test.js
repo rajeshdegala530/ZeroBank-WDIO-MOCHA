@@ -1,6 +1,6 @@
-import LoginPage from '../page-objects/pages/LoginPage'
-import App from '../page-objects/App'
-import Navbar from '../page-objects/components/Navbar'
+import LoginPage from '../../page-objects/pages/LoginPage'
+import App from '../../page-objects/App'
+import Navbar from '../../page-objects/components/Navbar'
 
 describe('E2E Tests - Forgot Password', () => {
 	it('User Should see Forgot Password Page', () => {

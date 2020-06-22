@@ -1,5 +1,5 @@
-import App from '../page-objects/App'
-import Navbar from '../page-objects/components/Navbar'
+import App from '../../page-objects/App'
+import Navbar from '../../page-objects/components/Navbar'
 
 describe('E2E Tests - Search Functionality', () => {
 	it('Should Load Home Page', () => {

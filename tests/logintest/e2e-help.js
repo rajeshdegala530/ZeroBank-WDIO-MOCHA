@@ -1,7 +1,7 @@
-import LoginPage from '../page-objects/pages/LoginPage'
-import App from '../page-objects/App'
-import Navbar from '../page-objects/components/Navbar'
-import HelpPage from '../page-objects/pages/HelpPage'
+import LoginPage from '../../page-objects/pages/LoginPage'
+import App from '../../page-objects/App'
+import Navbar from '../../page-objects/components/Navbar'
+import HelpPage from '../../page-objects/pages/HelpPage'
 
 describe('E2E Tests - Help', () => {
 	it('Should Login to Application', () => {

@@ -140,14 +140,12 @@ exports.config = {
     // see also: https://webdriver.io/docs/dot-reporter.html
       //  reporters: ['spec'],
     //  reporters: ['spec'],
-      reporters: ['spec',['mochawesome',{
-            outputDir: './mochareports',
-            includeScreenshots:true,
-      screenshotUseRelativePath:true,
-      mochawesome_filename: 'myfile.json'
-
-        }]
-      ],
+      reporters: ['spec'],
+      reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]],
 
     //
     // Options to be passed to Mocha.

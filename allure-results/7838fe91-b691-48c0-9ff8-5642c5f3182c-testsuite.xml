@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594571920683' stop='1594571928666'>
+    <name>E2E Tests - Forgot Password</name>
+    <title>E2E Tests - Forgot Password</title>
+    <test-cases>
+        <test-case start='1594571920684' status='passed' stop='1594571926936'>
+            <name>User Should see Forgot Password Page</name>
+            <title>User Should see Forgot Password Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1594571926936' status='passed' stop='1594571928661'>
+            <name>User should be able to password reset success text</name>
+            <title>User should be able to password reset success text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

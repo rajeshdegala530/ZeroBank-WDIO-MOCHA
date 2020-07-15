@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594719921484' stop='1594719931713'>
+    <name>E2E- Pay</name>
+    <title>E2E- Pay</title>
+    <test-cases>
+        <test-case start='1594719921490' status='passed' stop='1594719927913'>
+            <name>Should Login to Application</name>
+            <title>Should Login to Application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0c710e33-cd51-4eb5-82b0-46984551d423-attachment.png' type='image/png' size='89572'/>
+            </attachments>
+        </test-case>
+        <test-case start='1594719927914' status='passed' stop='1594719931711'>
+            <name>Should Make Payment</name>
+            <title>Should Make Payment</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='82b29a17-0267-4137-856a-5804901bbf42-attachment.png' type='image/png' size='70364'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

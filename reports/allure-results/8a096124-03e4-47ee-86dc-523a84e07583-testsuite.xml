@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594719920839' stop='1594719933915'>
+    <name>E2E- FIND TRANSACTIONS</name>
+    <title>E2E- FIND TRANSACTIONS</title>
+    <test-cases>
+        <test-case start='1594719920839' status='passed' stop='1594719927834'>
+            <name>Should Login to Application</name>
+            <title>Should Login to Application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bba9438a-8422-4259-8d1d-9f69b5ff684c-attachment.png' type='image/png' size='89191'/>
+            </attachments>
+        </test-case>
+        <test-case start='1594719927835' status='passed' stop='1594719931515'>
+            <name>Transaction Filter should work - No Results Page</name>
+            <title>Transaction Filter should work - No Results Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9964b15c-04f6-471f-b3ac-961f28229b23-attachment.png' type='image/png' size='59643'/>
+            </attachments>
+        </test-case>
+        <test-case start='1594719931515' status='passed' stop='1594719933914'>
+            <name>Transaction Filter should work - Results Page</name>
+            <title>Transaction Filter should work - Results Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f579a0ba-ac80-4269-b6bf-df1db99a4c1f-attachment.png' type='image/png' size='68636'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

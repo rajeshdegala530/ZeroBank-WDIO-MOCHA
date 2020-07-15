@@ -1,0 +1,108 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "E2E Tests - Currency Exchange",
+    "children" : [ {
+      "name" : "Should Login to Application",
+      "uid" : "de9d6bc7957726c5",
+      "parentUid" : "8d52af0e9d1596939fb04df7b154ccdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594719920229,
+        "stop" : 1594719926323,
+        "duration" : 6094
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "User Should make currency exchange",
+      "uid" : "b1043ed032ec7f64",
+      "parentUid" : "8d52af0e9d1596939fb04df7b154ccdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594719926324,
+        "stop" : 1594719930988,
+        "duration" : 4664
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "8d52af0e9d1596939fb04df7b154ccdc"
+  }, {
+    "name" : "E2E- FIND TRANSACTIONS",
+    "children" : [ {
+      "name" : "Should Login to Application",
+      "uid" : "81139ae7b567322f",
+      "parentUid" : "857bc5c9b1305214363de6f529646c5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594719920839,
+        "stop" : 1594719927834,
+        "duration" : 6995
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Transaction Filter should work - No Results Page",
+      "uid" : "8b6b232f9d6ff9b9",
+      "parentUid" : "857bc5c9b1305214363de6f529646c5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594719927835,
+        "stop" : 1594719931515,
+        "duration" : 3680
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Transaction Filter should work - Results Page",
+      "uid" : "69b337f903092016",
+      "parentUid" : "857bc5c9b1305214363de6f529646c5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594719931515,
+        "stop" : 1594719933914,
+        "duration" : 2399
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "857bc5c9b1305214363de6f529646c5f"
+  }, {
+    "name" : "E2E- Pay",
+    "children" : [ {
+      "name" : "Should Login to Application",
+      "uid" : "5d410b591851f115",
+      "parentUid" : "64f42c545517fe4bde529fd443c2c966",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594719921490,
+        "stop" : 1594719927913,
+        "duration" : 6423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Should Make Payment",
+      "uid" : "d7bb635111531e44",
+      "parentUid" : "64f42c545517fe4bde529fd443c2c966",
+      "status" : "passed",
+      "time" : {
+        "start" : 1594719927914,
+        "stop" : 1594719931711,
+        "duration" : 3797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "64f42c545517fe4bde529fd443c2c966"
+  } ]
+}

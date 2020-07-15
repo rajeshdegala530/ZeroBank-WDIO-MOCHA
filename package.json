@@ -4,10 +4,13 @@
   "description": "Automated Software Testing with WebDriverIO",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js",
-    "Login": "wdio wdio.conf.js --suite login",
-    "Payment": "wdio wdio.conf.js --suite payment",
-    "AccountTest": "wdio wdio.conf.js --suite account"
+    "open-allure": "./node_modules/.bin/allure generate ./reports/allure-results --clean && allure open",
+    "allure-clean": "./node_modules/.bin/cleandir ./reports/allure-results",
+    "screenshot-clean":"./node_modules/.bin/cleandir ./reports/Screenshots",
+    "test": " npm run allure-clean && npm run screenshot-clean && wdio wdio.conf.js && npm run open-allure",
+    "Login": "npm run allure-clean && npm run screenshot-clean && wdio wdio.conf.js --suite login && npm run open-allure",
+    "Payment": "npm run allure-clean && npm run screenshot-clean && wdio wdio.conf.js --suite payment && npm run open-allure",
+    "AccountTest": "npm run allure-clean && npm run screenshot-clean && wdio wdio.conf.js --suite account && npm run open-allure"
   },
   "keywords": [
     "Automation",
@@ -28,8 +31,8 @@
     "@wdio/mocha-framework": "^6.1.8",
     "@wdio/spec-reporter": "^6.1.12",
     "@wdio/sync": "^6.1.8",
-    "allure-commandline": "^2.13.0",
     "chromedriver": "^83.0.0",
+    "clean-dir": "^1.0.3",
     "eslint-plugin-mocha": "^7.0.0",
     "mocha-allure-reporter": "^1.4.0",
     "mochawesome-merge": "^4.1.0",

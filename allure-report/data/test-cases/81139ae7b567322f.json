@@ -1,0 +1,74 @@
+{
+  "uid" : "81139ae7b567322f",
+  "name" : "Should Login to Application",
+  "fullName" : "E2E- FIND TRANSACTIONS.Should Login to Application",
+  "historyId" : "c39fd8f67517e44b7792328c72710ce",
+  "time" : {
+    "start" : 1594719920839,
+    "stop" : 1594719927834,
+    "duration" : 6995
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23d336b2b859d5d2",
+      "name" : "Screenshot",
+      "source" : "23d336b2b859d5d2.png",
+      "type" : "image/png",
+      "size" : 89191
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "E2E- FIND TRANSACTIONS"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E- FIND TRANSACTIONS"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Login to Application"
+  }, {
+    "name" : "package",
+    "value" : "E2E- FIND TRANSACTIONS"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "81139ae7b567322f.json",
+  "parameterValues" : [ "chrome" ]
+}

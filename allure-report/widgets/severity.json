@@ -1,0 +1,71 @@
+[ {
+  "uid" : "69b337f903092016",
+  "name" : "Transaction Filter should work - Results Page",
+  "time" : {
+    "start" : 1594719931515,
+    "stop" : 1594719933914,
+    "duration" : 2399
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81139ae7b567322f",
+  "name" : "Should Login to Application",
+  "time" : {
+    "start" : 1594719920839,
+    "stop" : 1594719927834,
+    "duration" : 6995
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d7bb635111531e44",
+  "name" : "Should Make Payment",
+  "time" : {
+    "start" : 1594719927914,
+    "stop" : 1594719931711,
+    "duration" : 3797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d410b591851f115",
+  "name" : "Should Login to Application",
+  "time" : {
+    "start" : 1594719921490,
+    "stop" : 1594719927913,
+    "duration" : 6423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de9d6bc7957726c5",
+  "name" : "Should Login to Application",
+  "time" : {
+    "start" : 1594719920229,
+    "stop" : 1594719926323,
+    "duration" : 6094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b6b232f9d6ff9b9",
+  "name" : "Transaction Filter should work - No Results Page",
+  "time" : {
+    "start" : 1594719927835,
+    "stop" : 1594719931515,
+    "duration" : 3680
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1043ed032ec7f64",
+  "name" : "User Should make currency exchange",
+  "time" : {
+    "start" : 1594719926324,
+    "stop" : 1594719930988,
+    "duration" : 4664
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

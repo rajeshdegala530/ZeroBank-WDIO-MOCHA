@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 14 10:45:27 BST 2020","Tue Jul 14 10:45:31 BST 2020","3680","","E2E- FIND TRANSACTIONS","","E2E- FIND TRANSACTIONS","Transaction Filter should work - No Results Page","Transaction Filter should work - No Results Page",""
+"passed","Tue Jul 14 10:45:26 BST 2020","Tue Jul 14 10:45:30 BST 2020","4664","","E2E Tests - Currency Exchange","","E2E Tests - Currency Exchange","User Should make currency exchange","User Should make currency exchange",""
+"passed","Tue Jul 14 10:45:27 BST 2020","Tue Jul 14 10:45:31 BST 2020","3797","","E2E- Pay","","E2E- Pay","Should Make Payment","Should Make Payment",""
+"passed","Tue Jul 14 10:45:20 BST 2020","Tue Jul 14 10:45:26 BST 2020","6094","","E2E Tests - Currency Exchange","","E2E Tests - Currency Exchange","Should Login to Application","Should Login to Application",""
+"passed","Tue Jul 14 10:45:21 BST 2020","Tue Jul 14 10:45:27 BST 2020","6423","","E2E- Pay","","E2E- Pay","Should Login to Application","Should Login to Application",""
+"passed","Tue Jul 14 10:45:20 BST 2020","Tue Jul 14 10:45:27 BST 2020","6995","","E2E- FIND TRANSACTIONS","","E2E- FIND TRANSACTIONS","Should Login to Application","Should Login to Application",""
+"passed","Tue Jul 14 10:45:31 BST 2020","Tue Jul 14 10:45:33 BST 2020","2399","","E2E- FIND TRANSACTIONS","","E2E- FIND TRANSACTIONS","Transaction Filter should work - Results Page","Transaction Filter should work - Results Page",""

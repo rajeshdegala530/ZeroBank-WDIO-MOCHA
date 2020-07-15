@@ -1,0 +1,74 @@
+{
+  "uid" : "b1043ed032ec7f64",
+  "name" : "User Should make currency exchange",
+  "fullName" : "E2E Tests - Currency Exchange.User Should make currency exchange",
+  "historyId" : "efb54e7b41a4ae9858c9ec2ffe06fa06",
+  "time" : {
+    "start" : 1594719926324,
+    "stop" : 1594719930988,
+    "duration" : 4664
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1a0a1518f1b58d54",
+      "name" : "Screenshot",
+      "source" : "1a0a1518f1b58d54.png",
+      "type" : "image/png",
+      "size" : 70711
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "E2E Tests - Currency Exchange"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E Tests - Currency Exchange"
+  }, {
+    "name" : "testMethod",
+    "value" : "User Should make currency exchange"
+  }, {
+    "name" : "package",
+    "value" : "E2E Tests - Currency Exchange"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1043ed032ec7f64.json",
+  "parameterValues" : [ "chrome" ]
+}

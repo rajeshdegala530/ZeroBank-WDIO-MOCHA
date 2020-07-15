@@ -1,0 +1,74 @@
+{
+  "uid" : "5d410b591851f115",
+  "name" : "Should Login to Application",
+  "fullName" : "E2E- Pay.Should Login to Application",
+  "historyId" : "161ed7b959709235b06806ad712cf781",
+  "time" : {
+    "start" : 1594719921490,
+    "stop" : 1594719927913,
+    "duration" : 6423
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d9b9d7aa27c59fc",
+      "name" : "Screenshot",
+      "source" : "9d9b9d7aa27c59fc.png",
+      "type" : "image/png",
+      "size" : 89572
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "E2E- Pay"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E- Pay"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Login to Application"
+  }, {
+    "name" : "package",
+    "value" : "E2E- Pay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d410b591851f115.json",
+  "parameterValues" : [ "chrome" ]
+}

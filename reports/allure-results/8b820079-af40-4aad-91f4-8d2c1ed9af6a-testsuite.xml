@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594719920228' stop='1594719930990'>
+    <name>E2E Tests - Currency Exchange</name>
+    <title>E2E Tests - Currency Exchange</title>
+    <test-cases>
+        <test-case start='1594719920229' status='passed' stop='1594719926323'>
+            <name>Should Login to Application</name>
+            <title>Should Login to Application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='21b32469-8b92-4cb2-9939-5a6f12cab42e-attachment.png' type='image/png' size='89572'/>
+            </attachments>
+        </test-case>
+        <test-case start='1594719926324' status='passed' stop='1594719930988'>
+            <name>User Should make currency exchange</name>
+            <title>User Should make currency exchange</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e24a1754-f17d-4563-a0c8-1f8ad1b23c36-attachment.png' type='image/png' size='70711'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,74 @@
+{
+  "uid" : "d7bb635111531e44",
+  "name" : "Should Make Payment",
+  "fullName" : "E2E- Pay.Should Make Payment",
+  "historyId" : "cd68c044c1e21dfd9439132ab8efc14d",
+  "time" : {
+    "start" : 1594719927914,
+    "stop" : 1594719931711,
+    "duration" : 3797
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d7fdc570936d82af",
+      "name" : "Screenshot",
+      "source" : "d7fdc570936d82af.png",
+      "type" : "image/png",
+      "size" : 70364
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "E2E- Pay"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E- Pay"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should Make Payment"
+  }, {
+    "name" : "package",
+    "value" : "E2E- Pay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7bb635111531e44.json",
+  "parameterValues" : [ "chrome" ]
+}

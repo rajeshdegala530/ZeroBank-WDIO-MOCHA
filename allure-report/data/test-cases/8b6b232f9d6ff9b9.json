@@ -1,0 +1,74 @@
+{
+  "uid" : "8b6b232f9d6ff9b9",
+  "name" : "Transaction Filter should work - No Results Page",
+  "fullName" : "E2E- FIND TRANSACTIONS.Transaction Filter should work - No Results Page",
+  "historyId" : "6db9492f9f7759633db7da6b71b09761",
+  "time" : {
+    "start" : 1594719927835,
+    "stop" : 1594719931515,
+    "duration" : 3680
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9d6f76fb1c7c2f04",
+      "name" : "Screenshot",
+      "source" : "9d6f76fb1c7c2f04.png",
+      "type" : "image/png",
+      "size" : 59643
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "E2E- FIND TRANSACTIONS"
+  }, {
+    "name" : "testClass",
+    "value" : "E2E- FIND TRANSACTIONS"
+  }, {
+    "name" : "testMethod",
+    "value" : "Transaction Filter should work - No Results Page"
+  }, {
+    "name" : "package",
+    "value" : "E2E- FIND TRANSACTIONS"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b6b232f9d6ff9b9.json",
+  "parameterValues" : [ "chrome" ]
+}
